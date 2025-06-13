@@ -3,9 +3,9 @@
     <title></title>
     <body>
         <details><summary>Status</summary>
-            <li class="status_">Planning</li>
-            <li class="status_q">Current/Paused</li>
-            <li class="status_w">Completed</li>
+            <li style="background-color: rgb(211, 208, 178);">Planning</li>
+            <li style="background-color: rgb(105, 255, 30);">Current/Paused</li>
+            <li style="background-color: rgb(0, 214, 233);">Completed</li>
         </details>
         <details><summary>Media</summary>
             <li>&#x1F37F; = Movie (&#x3C;60min)</li>
@@ -421,18 +421,16 @@
             <li></li>
         </details>
         <style>
-            table{text-align: center;}
+            table{text-align: center; background-color: rgb(211, 208, 178);}
             [data-cell="name"]{text-align: start;}
             body{font-size: 15px}
-            .status_{background-color: rgb(211, 208, 178);}
-            .status_q{background-color: rgb(105, 255, 30);}
-            .status_w{background-color: rgb(0, 214, 233);}
             [colspan="9"]{background-color: rgb(255, 127, 80);}
             .title{background-color: aquamarine;}
             /*tr:nth-of-type(2n){background-color: ;}*/
             table.r_tion,.blank{background-color: black; text-align: center;}
             tr.r_tion{background-color: white;}
         </style>
+        <link rel="stylesheet" href="Status.css">
         <table style="background-color: black;">
             <tr style="background-color: cadetblue;">
                 <th>Franchise</th>
