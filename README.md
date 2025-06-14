@@ -3,6 +3,7 @@ Entertainment Database (or EntDb for short) is a tool to track the **movies** & 
 # Why Use It?
 Unlike places like **IMDb**, **Goodreads**, **MyAnimeList** & all the others, it is built with a simple -almost minimalistic- UI with only the most important pieces of information; that being:
 - **Status**: if you have watched the piece of media or not.
+- **Franchise**: if its story is connected to other pieces of media.
 - **Year**: in what year it released.
 - **Name**: what it is called.
 - **Media**: if it is a movie, game, book or something else.
