@@ -1,5 +1,5 @@
 # What Is EntDb?
-Entertainment Database *(or EntDb for short)* is a tool to track the **movies** & **shows** you have watched, the **games** you have played, the **books** & **comics** you have read, all the other stuff you have not yet got the chance to experience.
+Entertainment Database *(or EntDb for short)* is a tool to track the **movies** & **shows** you have watched, the **games** you have played, the **books** & **comics** you have read & all the other stuff you have not yet got the chance to experience, all in 1 place.
 # Why Use EntDb?
 Unlike places like **IMDb**, **Goodreads**, **MyAnimeList** & all the others, it is built with a simple *-almost minimalistic-* UI with only the most important pieces of information; that being:
 - **Status**: if you have watched the piece of media or not.
