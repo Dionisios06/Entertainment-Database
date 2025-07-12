@@ -13,4 +13,5 @@ Unlike places like **IMDb**, **Goodreads**, **MyAnimeList** & all the others, it
 - **Quantity**: how many episodes, chapters etc. it has.
 - **Ranking**: your rating & review of it.
 # How Do You Download EntDb?
-Simply click the green `<> Code ▼` button (& delete the `README.md` if it annoys you that much).
+Simply click the green `<> Code ▼` button.
+###### (& delete the `README.md` if it annoys you that much.)
