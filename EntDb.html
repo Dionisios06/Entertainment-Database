@@ -3,9 +3,12 @@
     <title></title>
     <body>
         <details><summary>Status</summary>
-            <li style="background-color: rgb(211, 208, 178);">Planning</li>
-            <li style="background-color: rgb(105, 255, 30);">Current or Paused</li>
-            <li style="background-color: rgb(0, 214, 233);">Completed</li>
+            <li style="background-color: rgb(211, 208, 178);"> =  A piece of media that hasn't been started being engaged yet & there are no plans to.</li>
+            <li style="background-color: rgb(221, 212, 106);">Planning = A piece of media that hasn't been started being engaged yet, but there are plans to.</li>
+            <li style="background-color: rgb(105, 255, 30);">Current or Paused = A piece of media that has been started being engaged with & there are plans to continue.</li>
+            <li style="background-color: rgb(229, 94, 94);">Dropped = A piece of media that has been started being engaged with, but there are no plans to continue.</li>
+            <li style="background-color: rgb(0, 214, 233);">Completed = A piece of media that has been engaged with fully.</li>
+            <li style="background-color: rgb(144, 149, 223);">Knowledgeable = A piece of media that has been engaged with from a third party; like a: recap or gameplay video, an edited version, or a very faithful adaptation.</li>
         </details>
         <details><summary>Media</summary>
             <li>&#x1F37F; = Movie (&#x3C;60min)</li>
@@ -16,6 +19,7 @@
             <li>&#x1F4FC; = Short Film (&#x3E;60min) & Special/Extra</li>
             <li>&#x1F3AD; = Theater</li>
             <li>&#x1F520; = Choose You Own Adventure (for Film)</li>
+            <!--📻📱🎮💽📁🔞📦🧩📜🌽⸙-->
         </details>
         <details><summary>Importance In The Franchise (IITF)</summary>
                 <li>&#x1F315; = Mainline: the ones everyone aware of the franchise's existance is aware of &/or are needed to understand the basic story.</li>
@@ -27,8 +31,9 @@
         <details><summary>Extra</summary>
                 <li>#### = Put in places of unknown numbers.</li>
                 <li>&#x25EF; = Put in the "quantity" cells (when the media isn't a "series") that has only one released product.</li>
-                <li>&#x2020; = Put in the "quantity" cells (after the default text) for media that have been cancelled in the middle of production or for cancelled games that had DEMOs/early accesses released.</li>
+                <li>&#x2020; = Put in the "quantity" cells (after the default text) for media that have been cancelled in the middle of their publication or for cancelled games that had DEMOs/early accesses released.</li>
                 <li>&#xA9; = Put in the "year" cells (above the default text) for media that are in the "Public Domain".</li>
+                <li>&#x1F6AB; = Put in the "quantity" cells for media that are "Lost Media".</li>
                 <li>&#x1F916; = Put in the "media" cells (after the default text) for media that have even the smallest use of A.I. in its final product (for something that is meant to be seen by the consumer, behind the scene & prototype stuff don't count).</li>
         </details>
         <!--
@@ -41,6 +46,14 @@
             <li>If the English translation of a word from a language with an oficial Latin script is just the same without the diacritics (usually in names) then they will be added right back.</li>
             <li>When a show doesn't have unique names for its seasons/arcs, their number will be added next to the title in parenthesis both in the original language & in English. If the title is the same in both the English & original title, then both will be written separately.</li>
             <li>Games have in their "year" cell the year of its full release, not of the DEMO/early access unless it was cancelled (which would lead to having to add a &#x2020; in the corresponding "quantity" cell).</li>
+            <li>If an online only game without local servers (which means that once the company shuts down the servers it's unplayble) is discontinued then it counts as &#x2020; instead of &#x1F6AB; if there is still footage of it on the internet.</li>
+            <li>If a DEMO is a separate experience from the final product then it counts as a separate piece of media.</li>
+            <li>Podcast = Series</li>
+            <li>The name of the media should be the exact same as of the one in the time of its release no matter the modifications the script went.</li>
+            <li><ul>If the script of the language has changed or got an additional one instead of modified, then (especially if it's just a transliteration) then they should be written (top to bottom) as:
+                <li>Chinese: simplified, traditional</li>
+                <li>Serbian: Cyrillic, Latin</li>
+            </ul></li>
         </details>
         <style>
             table{text-align: center;}
@@ -65,7 +78,7 @@
                 <th>IITF</th>
                 <th>Review</th>
             </tr>
-            <!--Last item id: 000000000000870-->
+            <!--Last item id: 000000000001048-->
             <div id="ch_franchises"><tr><td colspan="9">Checkpoint 1 - Franchises</td></tr>
                 <div id="made-in-abyss" class="ip">
                     <tr id="item-000000000000000">
@@ -702,7 +715,7 @@
                     </tr>
                     <tr id="item-000000000000061">
                         <td data-cell="year">2018</td>
-                        <td data-cell="name">DeltaRune: Chapter 1 - The Beginning</td>
+                        <td data-cell="name">DeltaRune Chapter 1: The Beginning</td>
                         <td data-cell="media">&#x1F3AE;</td>
                         <td data-cell="creator">Toby Fox</td>
                         <td data-cell="company"></td>
@@ -712,7 +725,7 @@
                     </tr>
                     <tr id="item-000000000000062">
                         <td data-cell="year">2021</td>
-                        <td data-cell="name">DeltaRune: Chapter 2 - A Cyber's World</td>
+                        <td data-cell="name">DeltaRune Chapter 2: A Cyber's World</td>
                         <td data-cell="media">&#x1F3AE;</td>
                         <td data-cell="creator">Toby Fox</td>
                         <td data-cell="company"></td>
@@ -722,7 +735,7 @@
                     </tr>
                     <tr id="item-000000000000063">
                         <td data-cell="year">2025</td>
-                        <td data-cell="name">DeltaRune: Chapter 3 & 4 - Late Night & Prophecy</td>
+                        <td data-cell="name">DeltaRune Chapter 3 & 4: Late Night & Prophecy</td>
                         <td data-cell="media">&#x1F3AE;</td>
                         <td data-cell="creator">Toby Fox</td>
                         <td data-cell="company"></td>
@@ -732,7 +745,7 @@
                     </tr>
                     <tr id="item-000000000000064">
                         <td data-cell="year">####</td>
-                        <td data-cell="name">DeltaRune: Chapter 5 - </td>
+                        <td data-cell="name">DeltaRune Chapter 5: </td>
                         <td data-cell="media">&#x1F3AE;</td>
                         <td data-cell="creator">Toby Fox</td>
                         <td data-cell="company"></td>
@@ -1842,7 +1855,7 @@
                 </div>
                 <div id="hellaverse" class="ip">
                     <tr id="item-000000000000171">
-                        <td rowspan="8" class="title">Hellaverse</td>
+                        <td rowspan="10" class="title">Hellaverse</td>
                         <td data-cell="year">2019</td>
                         <td data-cell="name">Hazbin Hotel (Pilot)</td>
                         <td data-cell="media">&#x1F4FC;</td>
@@ -1915,6 +1928,26 @@
                     <tr id="item-000000000000178">
                         <td data-cell="year">2024</td>
                         <td data-cell="name">Mission: Weeaboo-boo</td>
+                        <td data-cell="media">&#x1F4FC;</td>
+                        <td data-cell="creator">Vivienne Medrano; VivziePop</td>
+                        <td data-cell="company"></td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F311;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000001006">
+                        <td data-cell="year">2024</td>
+                        <td data-cell="name">Mission: Chupacabras</td>
+                        <td data-cell="media">&#x1F4FC;</td>
+                        <td data-cell="creator">Vivienne Medrano; VivziePop</td>
+                        <td data-cell="company"></td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F311;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000001007">
+                        <td data-cell="year">2025</td>
+                        <td data-cell="name">Mission: Orphan Time</td>
                         <td data-cell="media">&#x1F4FC;</td>
                         <td data-cell="creator">Vivienne Medrano; VivziePop</td>
                         <td data-cell="company"></td>
@@ -5746,6 +5779,1077 @@
                         <td data-cell="review"></td>
                     </tr>
                 </div>
+                <div id="moving-out">
+                    <tr id="item-000000000000920">
+                        <td rowspan="2" class="title">Moving<br>Out</td>
+                        <td data-cell="year">2020</td>
+                        <td data-cell="name">Moving Out</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">SMG Studio<br>Devm Games<br>Team17</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000921">
+                        <td data-cell="year">2023</td>
+                        <td data-cell="name">Moving Out 2</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">SMG Studio<br>Devm Games<br>Team17</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                </div>
+                <div id="oxenfree">
+                    <tr id="item-000000000000928">
+                        <td rowspan="2" class="title">Oxenfree</td>
+                        <td data-cell="year">2016</td>
+                        <td data-cell="name">Oxenfree</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Adam Hines<br>Sean Krankel</td>
+                        <td data-cell="company">Night School Studio</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000929">
+                        <td data-cell="year">2023</td>
+                        <td data-cell="name">Lost Signals</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Bryant Cannon</td>
+                        <td data-cell="company">Night School Studio<br>Netflix</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                </div>
+                <div id="emily-wants-to-play">
+                    <tr id="item-000000000000940">
+                        <td rowspan="2" class="title">Emily<br>Wants<br>To<br>Play</td>
+                        <td data-cell="year">2015</td>
+                        <td data-cell="name">Emily Wants To Play</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Shawn Hitchcock</td>
+                        <td data-cell="company">Hitchcock Games</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000941">
+                        <td data-cell="year">2017</td>
+                        <td data-cell="name">Too</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Shawn Hitchcock</td>
+                        <td data-cell="company">Hitchcock Games</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                </div>
+                <div id="job-simulator">
+                    <tr id="item-000000000000943">
+                        <td rowspan="2" class="title">Job<br>Simulator</td>
+                        <td data-cell="year">2016</td>
+                        <td data-cell="name">The 2050 Archives</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Alex Schwartz</td>
+                        <td data-cell="company">Owlchemy Labs</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000944">
+                        <td data-cell="year">2019</td>
+                        <td data-cell="name">Vacation Simulator</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Owlchemy Labs</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                </div>
+                <div id="house-flipper">
+                    <tr id="item-000000000000945">
+                        <td rowspan="2" class="title">House<br>Flipper</td>
+                        <td data-cell="year">2018</td>
+                        <td data-cell="name">House Flipper</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Empyrean<br>Frozen District<br>PlayWay</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000946">
+                        <td data-cell="year">2023</td>
+                        <td data-cell="name">House Flipper 2</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Frozen District</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                </div>
+                <div id="thief-simulator">
+                    <tr id="item-000000000000947">
+                        <td rowspan="3" class="title">Thief<br>Simulator</td>
+                        <td data-cell="year">2018</td>
+                        <td data-cell="name">Thief Simulator</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Noble Muffins<br>PlayWay</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000948">
+                        <td data-cell="year">2020</td>
+                        <td data-cell="name">VR</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">GameBoom VR<br>PlayWay</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F312;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000949">
+                        <td data-cell="year">2023</td>
+                        <td data-cell="name">Thief Simulator 2</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">CookieDev<br>Ultimate Games<br>PlayWay</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                </div>
+                <div id="suicide-guy">
+                    <tr id="item-000000000000950">
+                        <td rowspan="4" class="title">Suicide<br>Guy</td>
+                        <td data-cell="year">2017</td>
+                        <td data-cell="name">Suicide Guy</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Fabio Ferrara</td>
+                        <td data-cell="company">Chubby Pixel</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000951">
+                        <td data-cell="year">2018</td>
+                        <td data-cell="name">Sleepin' Deeply</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Fabio Ferrara</td>
+                        <td data-cell="company">Chubby Pixel</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F313;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000952">
+                        <td data-cell="year">2020</td>
+                        <td data-cell="name">VR</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Fabio Ferrara</td>
+                        <td data-cell="company">Chubby Pixel</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F312;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000953">
+                        <td data-cell="year">2023</td>
+                        <td data-cell="name">The Lost Dreams</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Chubby Pixel</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F313;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                </div>
+                <div id="passpartout">
+                    <tr id="item-000000000000954">
+                        <td rowspan="2" class="title">Passpartout</td>
+                        <td data-cell="year">2017</td>
+                        <td data-cell="name">The Starving Artist</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Flamebait Games<br>Gamirror Games</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000955">
+                        <td data-cell="year">2023</td>
+                        <td data-cell="name">The Lost Artist</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Flamebait Games</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                </div>
+                <div id="escape-vr">
+                    <tr id="item-000000000000956">
+                        <td rowspan="2" class="title">Escape<br>VR</td>
+                        <td data-cell="year">2016</td>
+                        <td data-cell="name">The Basement</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Five Mind Creations<br>Sourcenity</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000957">
+                        <td data-cell="year">2017</td>
+                        <td data-cell="name">Trapped Above The Clouds</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Five Mind Creations<br>Sourcenity</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                </div>
+                <div id="the-room">
+                    <tr id="item-000000000000958">
+                        <td rowspan="5" class="title">The<br>Room</td>
+                        <td data-cell="year">2012</td>
+                        <td data-cell="name">The Room</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Fireproof Games</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000959">
+                        <td data-cell="year">2013</td>
+                        <td data-cell="name">The Room 2</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Fireproof Games</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000960">
+                        <td data-cell="year">2015</td>
+                        <td data-cell="name">The Room 3</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Fireproof Games</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000961">
+                        <td data-cell="year">2018</td>
+                        <td data-cell="name">Old Sins</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Fireproof Games</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000962">
+                        <td data-cell="year">2020</td>
+                        <td data-cell="name">VR: A Dark Matter</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Fireproof Games</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F313;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                </div>
+                <div id="please_2c_-don_27_t-touch-anything">
+                    <tr id="item-000000000000963">
+                        <td rowspan="2" class="title">Please,<br>Don't<br>Touch<br>Anything</td>
+                        <td data-cell="year">2015</td>
+                        <td data-cell="name">Classic</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Four Quarters<br>ForwardXP</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000964">
+                        <td data-cell="year">2016</td>
+                        <td data-cell="name">3D</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Escalation Studios<br>Four Quarters<br>ForwardXP</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F312;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                </div>
+                <div id="unravel">
+                    <tr id="item-000000000000965">
+                        <td rowspan="2" class="title">Unravel</td>
+                        <td data-cell="year">2016</td>
+                        <td data-cell="name">Unravel</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Martin Sahlin</td>
+                        <td data-cell="company">Coldwood Interactive<br>Electronic Arts</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000966">
+                        <td data-cell="year">2018</td>
+                        <td data-cell="name">Unravel 2</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Martin Sahlin</td>
+                        <td data-cell="company">Coldwood Interactive<br>Electronic Arts</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                </div>
+                <div id="the-jackbox-party-pack">
+                    <tr id="item-000000000000967">
+                        <td rowspan="14" class="title">The<br>Jackbox<br>Party<br>Pack</td>
+                        <td data-cell="year">2014</td>
+                        <td data-cell="name">The Jackbox Party Pack</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Jackbox Games</td>
+                        <td data-cell="quantity">5</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000968">
+                        <td data-cell="year">2015</td>
+                        <td data-cell="name">The Jackbox Party Pack 2</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Jackbox Games</td>
+                        <td data-cell="quantity">5</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000969">
+                        <td data-cell="year">2016</td>
+                        <td data-cell="name">The Jackbox Party Pack 3</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Jackbox Games</td>
+                        <td data-cell="quantity">5</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000970">
+                        <td data-cell="year">2017</td>
+                        <td data-cell="name">The Jackbox Party Pack 4</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Jackbox Games</td>
+                        <td data-cell="quantity">5</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000971">
+                        <td data-cell="year">2018</td>
+                        <td data-cell="name">The Jackbox Party Pack 5</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Jackbox Games</td>
+                        <td data-cell="quantity">5</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000972">
+                        <td data-cell="year">2019</td>
+                        <td data-cell="name">The Jackbox Party Pack 6</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Jackbox Games</td>
+                        <td data-cell="quantity">5</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000973">
+                        <td data-cell="year">2020</td>
+                        <td data-cell="name">The Jackbox Party Pack 7</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Jackbox Games</td>
+                        <td data-cell="quantity">5</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000974">
+                        <td data-cell="year">2021</td>
+                        <td data-cell="name">The Jackbox Party Pack 8</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Jackbox Games</td>
+                        <td data-cell="quantity">5</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000975">
+                        <td data-cell="year">2022</td>
+                        <td data-cell="name">Starter</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Jackbox Games</td>
+                        <td data-cell="quantity">3</td>
+                        <td data-cell="iitf">&#x1F312;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000976">
+                        <td data-cell="year">2022</td>
+                        <td data-cell="name">The Jackbox Party Pack 9</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Jackbox Games</td>
+                        <td data-cell="quantity">5</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000977">
+                        <td data-cell="year">2023</td>
+                        <td data-cell="name">The Jackbox Party Pack 10</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Jackbox Games</td>
+                        <td data-cell="quantity">5</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000978">
+                        <td data-cell="year">2024</td>
+                        <td data-cell="name">Survey Scramble</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Jackbox Games</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F313;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000979">
+                        <td data-cell="year">2024</td>
+                        <td data-cell="name">Naughty Pack</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Jackbox Games</td>
+                        <td data-cell="quantity">3</td>
+                        <td data-cell="iitf">&#x1F313;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000980">
+                        <td data-cell="year">2025</td>
+                        <td data-cell="name">The Jackbox Party Pack 11</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Jackbox Games</td>
+                        <td data-cell="quantity">5</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                </div>
+                <div id="the-dark-pictures-anthology">
+                    <tr id="item-000000000000981">
+                        <td rowspan="6" class="title">The<br>Dark<br>Pictures<br>Anthology</td>
+                        <td data-cell="year">2019</td>
+                        <td data-cell="name">Man Of Medan</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Tom Heaton</td>
+                        <td data-cell="company">Supermassive Games<br>Bandai Namco</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000982">
+                        <td data-cell="year">2020</td>
+                        <td data-cell="name">Little Hope</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Nik Bowen</td>
+                        <td data-cell="company">Supermassive Games<br>Bandai Namco</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000983">
+                        <td data-cell="year">2021</td>
+                        <td data-cell="name">House Of Ashes</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Will Doyle</td>
+                        <td data-cell="company">Supermassive Games<br>Bandai Namco</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000984">
+                        <td data-cell="year">2022</td>
+                        <td data-cell="name">The Devil In Me</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Tom Heaton<br>Will Doyle</td>
+                        <td data-cell="company">Supermassive Games<br>Bandai Namco</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000985">
+                        <td data-cell="year">2023</td>
+                        <td data-cell="name">Switchback VR</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Alejandro Arque Gallardo<br>Will Doyle</td>
+                        <td data-cell="company">Supermassive Games</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F313;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000986">
+                        <td data-cell="year">####</td>
+                        <td data-cell="name">Directive 8020</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Will Doyle</td>
+                        <td data-cell="company">Supermassive Games</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                </div>
+                <div id="dealer_27_s-life">
+                    <tr id="item-000000000000987">
+                        <td rowspan="3" class="title">Dealer's<br>Life</td>
+                        <td data-cell="year">2019</td>
+                        <td data-cell="name">Dealer's Life</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Abyte</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000988">
+                        <td data-cell="year">2022</td>
+                        <td data-cell="name">Dealer's Life 2</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Abyte</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000989">
+                        <td data-cell="year">####</td>
+                        <td data-cell="name">Legend</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Abyte</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F313;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                </div>
+                <div id="hello-puppets_21_">
+                    <tr id="item-000000000000990">
+                        <td rowspan="2" class="title">Hello<br>Puppets!</td>
+                        <td data-cell="year">2020</td>
+                        <td data-cell="name">VR</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Otherworld Interactive</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000991">
+                        <td data-cell="year">2022</td>
+                        <td data-cell="name">Midnight Show</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Otherworld Interactive</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                </div>
+                <div id="boogeyman">
+                    <tr id="item-000000000000992">
+                        <td rowspan="3" class="title">Boogeyman</td>
+                        <td data-cell="year">2015</td>
+                        <td data-cell="name">Boogeyman</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Clockwork Wolf</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000993">
+                        <td data-cell="year">2017</td>
+                        <td data-cell="name">Boogeyman 2</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Clockwork Wolf</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000994">
+                        <td data-cell="year">2023</td>
+                        <td data-cell="name">Boogeyman 3</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Clockwork Wolf</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                </div>
+                <div id="qop">
+                    <tr id="item-000000000000996">
+                        <td rowspan="4" class="title">Qop</td>
+                        <td data-cell="year">2017</td>
+                        <td data-cell="name">Qop</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Quiet River</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000997">
+                        <td data-cell="year">2017</td>
+                        <td data-cell="name">Qop 2</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Quiet River</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000998">
+                        <td data-cell="year">2018</td>
+                        <td data-cell="name">Qop 3</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Quiet River</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000000999">
+                        <td data-cell="year">2018</td>
+                        <td data-cell="name">Qop 4</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Quiet River</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                </div>
+                <div id="i-expect-you-to-die">
+                    <tr id="item-000000000001000">
+                        <td rowspan="3" class="title">I<br>Expect<br>You<br>To<br>Die</td>
+                        <td data-cell="year">2016</td>
+                        <td data-cell="name">I Expect You To Die</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Schell Games</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000001001">
+                        <td data-cell="year">2021</td>
+                        <td data-cell="name">The Spy & The Liar</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Schell Games</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000001002">
+                        <td data-cell="year">2023</td>
+                        <td data-cell="name">Cog In The Machine</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Schell Games</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                </div>
+                <div id="fran-bow">
+                    <tr id="item-000000000001003">
+                        <td rowspan="2" class="title">Fran<br>Bow</td>
+                        <td data-cell="year">2015</td>
+                        <td data-cell="name">Fran Bow</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Natalia Martinsson</td>
+                        <td data-cell="company">Killmonday Games</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000001004">
+                        <td data-cell="year">2019</td>
+                        <td data-cell="name">Little Misfortune</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Natalia Martinsson</td>
+                        <td data-cell="company">Killmonday Games</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F313;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                </div>
+                <div id="horizon">
+                    <tr id="item-000000000001009">
+                        <td rowspan="8" class="title">Horizon</td>
+                        <td data-cell="year">2017</td>
+                        <td data-cell="name">Zero Dawn</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Mathijs De Jonge</td>
+                        <td data-cell="company">Guerrilla Games<br>Sony</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000001010">
+                        <td data-cell="year">2017</td>
+                        <td data-cell="name">Zero Dawn: The Frozen Wilds</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Guerrilla Games<br>Sony</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F313;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000001011">
+                        <td data-cell="year">2020</td>
+                        <td data-cell="name">Zero Dawn: The Sunhawk</td>
+                        <td data-cell="media">&#x1F4AD;</td>
+                        <td data-cell="creator">Anne Toole<br>Ann Maulina</td>
+                        <td data-cell="company">Titan Comics</td>
+                        <td data-cell="quantity">4 ~ 5</td>
+                        <td data-cell="iitf">&#x1F311;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000001012">
+                        <td data-cell="year">2021<br>2022</td>
+                        <td data-cell="name">Zero Dawn: Liberation</td>
+                        <td data-cell="media">&#x1F4AD;</td>
+                        <td data-cell="creator">Anne Toole<br>Ben McCaw<br>Elmer Damaso</td>
+                        <td data-cell="company">Titan Comics</td>
+                        <td data-cell="quantity">4</td>
+                        <td data-cell="iitf">&#x1F311;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000001013">
+                        <td data-cell="year">2022</td>
+                        <td data-cell="name">Forbidden West</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Mathijs De Jonge</td>
+                        <td data-cell="company">Guerrilla Games<br>Sony</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000001014">
+                        <td data-cell="year">2023</td>
+                        <td data-cell="name">Call Of The Mountain</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Alex Barnes</td>
+                        <td data-cell="company">Guerrilla Games<br>Firesprite<br>Sony</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F313;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000001015">
+                        <td data-cell="year">2023</td>
+                        <td data-cell="name">Forbidden West: Burning Shores</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Guerrilla Games<br>Sony</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F313;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000001016">
+                        <td data-cell="year">2024</td>
+                        <td data-cell="name">Lego Horizon Adventures</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Stephane Varrault<br>Floris Kooij<br>Xu Xiaojun</td>
+                        <td data-cell="company">Guerrilla Games<br>Studio Gobo<br>Sony</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F311;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                </div>
+                <div id="hungry-lamu">
+                    <tr id="item-000000000001017">
+                        <td rowspan="6" class="title">Hungry<br>Lamu</td>
+                        <td data-cell="year">2022</td>
+                        <td data-cell="name">Hungry Lamu</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Kulu</td>
+                        <td data-cell="company"></td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000001018">
+                        <td data-cell="year">2023</td>
+                        <td data-cell="name">Santy Is Home</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Kulu</td>
+                        <td data-cell="company"></td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F311;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000001019">
+                        <td data-cell="year">2023</td>
+                        <td data-cell="name">Seamongrel</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Kulu</td>
+                        <td data-cell="company"></td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000001020">
+                        <td data-cell="year">2023</td>
+                        <td data-cell="name">Yum's Farm</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Kulu</td>
+                        <td data-cell="company"></td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F311;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000001021">
+                        <td data-cell="year">2024</td>
+                        <td data-cell="name">Porkbound</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Kulu</td>
+                        <td data-cell="company"></td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F313;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000001022">
+                        <td data-cell="year">2025</td>
+                        <td data-cell="name">Hungry Lamu 2</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Kulu</td>
+                        <td data-cell="company"></td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                </div>
+                <div id="frostpunk">
+                    <tr id="item-000000000001023">
+                        <td rowspan="2" class="title">Frostpunk</td>
+                        <td data-cell="year">2018</td>
+                        <td data-cell="name">Frostpunk</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Micha&#x0142; Drozdowski</td>
+                        <td data-cell="company">11 Bit Studios</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000001024">
+                        <td data-cell="year">2024</td>
+                        <td data-cell="name">Frostpunk 2</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Jakub Stokalski<br>&#x0141;ukasz Juszczyk</td>
+                        <td data-cell="company">11 Bit Studios</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                </div>
+                <div id="outlast">
+                    <tr id="item-000000000001025">
+                        <td rowspan="6" class="title">Outlast</td>
+                        <td data-cell="year">2013</td>
+                        <td data-cell="name">Outlast</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">J. T. Petty</td>
+                        <td data-cell="company">Red Barrels</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000001026">
+                        <td data-cell="year">2014</td>
+                        <td data-cell="name">Whistleblower</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">J. T. Petty</td>
+                        <td data-cell="company">Red Barrels</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F313;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000001027">
+                        <td data-cell="year">2016<br>2017</td>
+                        <td data-cell="name">The Murkoff Account</td>
+                        <td data-cell="media">&#x1F4AD;</td>
+                        <td data-cell="creator">J. T. Petty<br>Igor-Alban Chevalier; The Black Frog</td>
+                        <td data-cell="company">Red Barrels</td>
+                        <td data-cell="quantity">5 ~ 6</td>
+                        <td data-cell="iitf">&#x1F311;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000001028">
+                        <td data-cell="year">2017</td>
+                        <td data-cell="name">Outlast 2</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">J. T. Petty</td>
+                        <td data-cell="company">Red Barrels</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000001029">
+                        <td data-cell="year">2023</td>
+                        <td data-cell="name">The Murkoff Collections</td>
+                        <td data-cell="media">&#x1F4AD;</td>
+                        <td data-cell="creator">J. T. Petty</td>
+                        <td data-cell="company">Red Barrels</td>
+                        <td data-cell="quantity">6</td>
+                        <td data-cell="iitf">&#x1F311;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000001030">
+                        <td data-cell="year">2024</td>
+                        <td data-cell="name">The Outlast Trials</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">J. T. Petty</td>
+                        <td data-cell="company">Red Barrels</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F313;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                </div>
+                <div id="midnight-scenes">
+                    <tr id="item-000000000001031">
+                        <td rowspan="5" class="title">Midnight<br>Scenes</td>
+                        <td data-cell="year">2017</td>
+                        <td data-cell="name">The Highway</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Octavi Navarro</td>
+                        <td data-cell="company">White Blanket Games</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000001032">
+                        <td data-cell="year">2018</td>
+                        <td data-cell="name">The Goodbye Note</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Octavi Navarro</td>
+                        <td data-cell="company">White Blanket Games</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000001033">
+                        <td data-cell="year">2021</td>
+                        <td data-cell="name">The Nanny</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Octavi Navarro</td>
+                        <td data-cell="company">White Blanket Games</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000001034">
+                        <td data-cell="year">2023</td>
+                        <td data-cell="name">From The Woods</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Octavi Navarro</td>
+                        <td data-cell="company">White Blanket Games</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000001035">
+                        <td data-cell="year">2024</td>
+                        <td data-cell="name">A Safe Place</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Octavi Navarro</td>
+                        <td data-cell="company">White Blanket Games</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                </div>
+                <div id="the-supper">
+                    <tr id="item-000000000001036">
+                        <td rowspan="2" class="title">The<br>Supper</td>
+                        <td data-cell="year">2020</td>
+                        <td data-cell="name">The Supper</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Octavi Navarro</td>
+                        <td data-cell="company">White Blanket Games</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000001037">
+                        <td data-cell="year">####</td>
+                        <td data-cell="name">New Blood</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator">Octavi Navarro</td>
+                        <td data-cell="company">White Blanket Games</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                </div>
+                <div id="learn-japanese-to-survive_21_">
+                    <tr id="item-000000000001040">
+                        <td rowspan="3" class="title">Learn<br>Japanese<br>To<br>Survive!</td>
+                        <td data-cell="year">2016</td>
+                        <td data-cell="name">Hiragana Battle</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Sleepy Duck<br>RIVER CROW STUDIO</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000001041">
+                        <td data-cell="year">2017</td>
+                        <td data-cell="name">Katakana War</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Sleepy Duck<br>RIVER CROW STUDIO</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                    <tr id="item-000000000001042">
+                        <td data-cell="year">2018</td>
+                        <td data-cell="name">Kanji Combat</td>
+                        <td data-cell="media">&#x1F3AE;</td>
+                        <td data-cell="creator"></td>
+                        <td data-cell="company">Sleepy Duck<br>RIVER CROW STUDIO</td>
+                        <td data-cell="quantity">&#x25EF;</td>
+                        <td data-cell="iitf">&#x1F315;</td>
+                        <td data-cell="review"></td>
+                    </tr>
+                </div>
                 <!--
                 <div id="">
                     <tr id="item-000000000000000">
@@ -7967,7 +9071,7 @@
                     <td data-cell="name">Seasons After Fall</td>
                     <td data-cell="media">&#x1F3AE;</td>
                     <td data-cell="creator">William David</td>
-                    <td data-cell="company">Swing Swing Submarine<br>Focus Home</td>
+                    <td data-cell="company">Swing Swing Submarine<br>Focus Entertainment</td>
                     <td data-cell="quantity">&#x25EF;</td>
                     <td data-cell="review"></td>
                 </tr>
@@ -8715,6 +9819,699 @@
                     <td data-cell="media">&#x1F37F;</td>
                     <td data-cell="creator">Michael Matthews</td>
                     <td data-cell="company"></td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000871">
+                    <td data-cell="year">2023</td>
+                    <td data-cell="name">I Am Your President</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">President Studio<br>PlayWay</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000872">
+                    <td data-cell="year">2020</td>
+                    <td data-cell="name">Shady Part Of Me</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator">Douze Dixi&#xE8;mes</td>
+                    <td data-cell="company">Focus Entertainment</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000873">
+                    <td data-cell="year">2020</td>
+                    <td data-cell="name">Life Of Fly</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">EpiXR Games UG</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000874">
+                    <td data-cell="year">2020</td>
+                    <td data-cell="name">Cockhead</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Yoba Games</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000875">
+                    <td data-cell="year">2019</td>
+                    <td data-cell="name">Project Winter</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Other Ocean</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000876">
+                    <td data-cell="year">2020</td>
+                    <td data-cell="name">Suzerain</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Torpor Games</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000877">
+                    <td data-cell="year">2019</td>
+                    <td data-cell="name">Trover Saves The Universe</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator">Justin Roiland</td>
+                    <td data-cell="company">Squanch Games</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000878">
+                    <td data-cell="year">2023</td>
+                    <td data-cell="name">Barotrauma</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator">Joonas Rikkonen; Regalis</td>
+                    <td data-cell="company">FakeFish<br>Undertow Games<br>Daedalic</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000879">
+                    <td data-cell="year">####</td>
+                    <td data-cell="name">Hidden Deep</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Cogwheel<br>Daedalic</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000880">
+                    <td data-cell="year">2024</td>
+                    <td data-cell="name">Edge Of Sanity</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Vixa Games<br>Daedalic</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000881">
+                    <td data-cell="year">2015</td>
+                    <td data-cell="name">Viscera Cleanup Detail</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">RuneStorm</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000882">
+                    <td data-cell="year">2020</td>
+                    <td data-cell="name">Karen: An Outrage Simulator</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator">Vagabond Dog</td>
+                    <td data-cell="company"></td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000883">
+                    <td data-cell="year">2021</td>
+                    <td data-cell="name">The Stonks Market</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator">Vagabond Dog</td>
+                    <td data-cell="company"></td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000884">
+                    <td data-cell="year">2017</td>
+                    <td data-cell="name">MMM: Murder Most Misfortunate</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator">Michael Long</td>
+                    <td data-cell="company">Foolish Mortals Games</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000885">
+                    <td data-cell="year">2020</td>
+                    <td data-cell="name">Radio General</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator">Michael Long</td>
+                    <td data-cell="company">Foolish Mortals Games</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000886">
+                    <td data-cell="year">2022</td>
+                    <td data-cell="name">Kaiju Wars</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator">Michael Long</td>
+                    <td data-cell="company">Foolish Mortals Games</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000887">
+                    <td data-cell="year">2022</td>
+                    <td data-cell="name">Potion Craft: Alchemist Simulator</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">niceplay games<br>tinyBuild</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000888">
+                    <td data-cell="year">####</td>
+                    <td data-cell="name">Heartbound</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator">Jason Thor Hall</td>
+                    <td data-cell="company">Pirate Software</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000889">
+                    <td data-cell="year">2019</td>
+                    <td data-cell="name">Mr. Maze</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator">Mark J. Lovegrove</td>
+                    <td data-cell="company">Screen 7</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000890">
+                    <td data-cell="year">2017</td>
+                    <td data-cell="name">Room13</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">The Paper Robot<br>Clickteam</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000891">
+                    <td data-cell="year">####</td>
+                    <td data-cell="name">Rhythm Doctor</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">7th Beat Games<br>indienova</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000892">
+                    <td data-cell="year">2021</td>
+                    <td data-cell="name">Fate Of Kai</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">TRYLIGHT GAME STUDIO<br>TheGamePublisher.com</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000893">
+                    <td data-cell="year">2018</td>
+                    <td data-cell="name">The Spectrum Retreat</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Dan Smith Studios<br>Ripstone</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000894">
+                    <td data-cell="year">2021</td>
+                    <td data-cell="name">Say No! More</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Studio Fizbin<br>Thunderful</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000895">
+                    <td data-cell="year">2020</td>
+                    <td data-cell="name">Your amazing T-Gotchi!</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator">Garage Heathen</td>
+                    <td data-cell="company"></td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000896">
+                    <td data-cell="year">2022</td>
+                    <td data-cell="name">Who's Lila?</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator">Garage Heathen</td>
+                    <td data-cell="company">IndieArk</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000897">
+                    <td data-cell="year">2021</td>
+                    <td data-cell="name">Just Die Already</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">DoubleMoose Games<br>Curve Games</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000898">
+                    <td data-cell="year">2021</td>
+                    <td data-cell="name">Mind Scanners</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">The Outer Zone<br>Brave At Night</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000899">
+                    <td data-cell="year">2021</td>
+                    <td data-cell="name">The Longest Road On Earth</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Brainwash Gang<br>TLR Games<br>Raw Fury</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000900">
+                    <td data-cell="year">2018</td>
+                    <td data-cell="name">Doodle Date</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator">Nicholas Lives</td>
+                    <td data-cell="company"></td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000901">
+                    <td data-cell="year">2022</td>
+                    <td data-cell="name">Silt</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Spiral Circus Games<br>Fireshine Games</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000902">
+                    <td data-cell="year">2017</td>
+                    <td data-cell="name">Questr: Swipe Right For Adventure</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Mutant Entertainment Studios</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000903">
+                    <td data-cell="year">2015</td>
+                    <td data-cell="name">The Beginner's Guide</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator">Davey Wreden</td>
+                    <td data-cell="company">Everything Unlimited</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000904">
+                    <td data-cell="year">2019</td>
+                    <td data-cell="name">We. The Revolution</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Polyslash<br>Valkyrie Initiative</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000905">
+                    <td data-cell="year">2016</td>
+                    <td data-cell="name">That Dragon, Cancer</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator">Ryan Green<br>Amy Green<br>Josh Larson</td>
+                    <td data-cell="company">Numinous Games</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000906">
+                    <td data-cell="year">2021</td>
+                    <td data-cell="name">Banners Of Ruin</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">MonteBearo<br>Goblinz<br>Maple Whispering</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000907">
+                    <td data-cell="year">2017</td>
+                    <td data-cell="name">Moribund</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Traptics</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000908">
+                    <td data-cell="year">2023</td>
+                    <td data-cell="name">Homeseek</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Traptics<br>The Iterative Collective</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000909">
+                    <td data-cell="year">####</td>
+                    <td data-cell="name">Xenopurge</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Traptics<br>Firesquid</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000910">
+                    <td data-cell="year">####</td>
+                    <td data-cell="name">Becastled</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Mana Potion Studios</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000911">
+                    <td data-cell="year">2019</td>
+                    <td data-cell="name">Pistol Whip</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Cloudhead Games</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000912">
+                    <td data-cell="year">2017</td>
+                    <td data-cell="name">Kingdoms & Castles</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Lion Shield</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000913">
+                    <td data-cell="year">####</td>
+                    <td data-cell="name">Nova Roma</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Lion Shield<br>Hooded Horse</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000914">
+                    <td data-cell="year">2020</td>
+                    <td data-cell="name">Table Manners: Physics-Based Dating Game</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Echo Chamber Games<br>Curve Games</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000915">
+                    <td data-cell="year">2016</td>
+                    <td data-cell="name">Bounce</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Steel Wool Studios</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000916">
+                    <td data-cell="year">2016</td>
+                    <td data-cell="name">Quar: Battle For Gate 18</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Steel Wool Studios</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000917">
+                    <td data-cell="year">2016</td>
+                    <td data-cell="name">Mars Odyssey</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Steel Wool Studios</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000918">
+                    <td data-cell="year">####</td>
+                    <td data-cell="name">Occupy Mars: The Game</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Pyramid Games</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000919">
+                    <td data-cell="year">2017</td>
+                    <td data-cell="name">Mr. Shifty</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Team Shifty<br>tinyBuild</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000922">
+                    <td data-cell="year">2020</td>
+                    <td data-cell="name">Golf With Your Friends</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Blacklight<br>Team17</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000923">
+                    <td data-cell="year">2022</td>
+                    <td data-cell="name">Deisim</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Myron Games</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000924">
+                    <td data-cell="year">2024</td>
+                    <td data-cell="name">Underworld Overseer</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Myron Games</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000925">
+                    <td data-cell="year">2023</td>
+                    <td data-cell="name">Labyrinthine</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Valko Game Studios</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000926">
+                    <td data-cell="year">2017</td>
+                    <td data-cell="name">Gorogoa</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Buried Signal<br>Annapurna</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000927">
+                    <td data-cell="year">2020</td>
+                    <td data-cell="name">Afterparty</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator">Adam Hines<br>Sean Krankel</td>
+                    <td data-cell="company">Night School Studio</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000930">
+                    <td data-cell="year">2020</td>
+                    <td data-cell="name">CyberTaxi</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Projects from Basement<br>Ultimate Games</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000931">
+                    <td data-cell="year">2014</td>
+                    <td data-cell="name">Broken Age</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Double Fine</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000932">
+                    <td data-cell="year">2018</td>
+                    <td data-cell="name">Bartender VR Simulator</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">VR Factory</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000933">
+                    <td data-cell="year">2018</td>
+                    <td data-cell="name">Guns & Notes</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">VR Factory</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000934">
+                    <td data-cell="year">2021</td>
+                    <td data-cell="name">Zombie Bar Simulator</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">VR Factory</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000935">
+                    <td data-cell="year">2019</td>
+                    <td data-cell="name">Pacify</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator">Shawn Hitchcock</td>
+                    <td data-cell="company">Hitchcock Games</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000936">
+                    <td data-cell="year">2019</td>
+                    <td data-cell="name">Tools Up!</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">The Knights of Unity<br>Untold Tales<br>Gamersky Games</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000937">
+                    <td data-cell="year">2020</td>
+                    <td data-cell="name">Election Simulator</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Derpmachine</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000938">
+                    <td data-cell="year">2020</td>
+                    <td data-cell="name">Crappy Climber</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Derpmachine</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000939">
+                    <td data-cell="year">####</td>
+                    <td data-cell="name">Project Arrhythmia</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Vitamin Games<br>Top Hat Studios</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000942">
+                    <td data-cell="year">2020</td>
+                    <td data-cell="name">A Fate: As Far As The Eye</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Unexpected<br>Goblinz<br>Maple Whispering</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000000995">
+                    <td data-cell="year">2017</td>
+                    <td data-cell="name">Frosty Nights</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Clockwork Wolf</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000001005">
+                    <td data-cell="year">2025</td>
+                    <td data-cell="name">KreatureKind</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Valiant Game Studio<br>Aurora Punks</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000001008">
+                    <td data-cell="year">2025</td>
+                    <td data-cell="name">The Hyperpolyglot Handbook: A Gigachad's Guide To Language Learning</td>
+                    <td data-cell="media">&#x1F4DA;</td>
+                    <td data-cell="creator">Language Simp</td>
+                    <td data-cell="company"></td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000001038">
+                    <td data-cell="year">2025</td>
+                    <td data-cell="name">A Game About Digging A Hole</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Cyberwave<br>Yalpakor Bou&#xB7;tique</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000001039">
+                    <td data-cell="year">2019</td>
+                    <td data-cell="name">How To Date A Magical Girl!</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Cafe Shiba<br>RIVER CROW STUDIO</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000001043">
+                    <td data-cell="year">2022</td>
+                    <td data-cell="name">Corpse Factory</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">RIVER CROW STUDIO</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000001044">
+                    <td data-cell="year">2022</td>
+                    <td data-cell="name">Endling: Extinction Is Forever</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator"></td>
+                    <td data-cell="company">Herobeat Studios<br>HandyGames</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000001045">
+                    <td data-cell="year">2021</td>
+                    <td data-cell="name">Twelve Minutes</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator">Lu&#xED;s Ant&#xF3;nio</td>
+                    <td data-cell="company">Annapurna</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000001046">
+                    <td data-cell="year">2025</td>
+                    <td data-cell="name">Wanderstop</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator">Davey Wreden</td>
+                    <td data-cell="company">Ivy Road<br>Annapurna</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000001047">
+                    <td data-cell="year">2018</td>
+                    <td data-cell="name">The Librarian</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator">Octavi Navarro</td>
+                    <td data-cell="company">White Blanket Games</td>
+                    <td data-cell="quantity">&#x25EF;</td>
+                    <td data-cell="review"></td>
+                </tr>
+                <tr id="item-000000000001048">
+                    <td data-cell="year">2022</td>
+                    <td data-cell="name">Unwelcome</td>
+                    <td data-cell="media">&#x1F3AE;</td>
+                    <td data-cell="creator">Octavi Navarro</td>
+                    <td data-cell="company">White Blanket Games</td>
                     <td data-cell="quantity">&#x25EF;</td>
                     <td data-cell="review"></td>
                 </tr>
