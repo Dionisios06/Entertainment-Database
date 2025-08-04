@@ -14,4 +14,26 @@ Unlike places like **IMDb**, **Goodreads**, **MyAnimeList** & all the others, it
 - **Ranking**: your rating & review of it.
 # How Do You Download EntDb?
 Simply click the green `<> Code ▼` button.
-###### (& delete the `README.md` if it annoys you that much.)
+###### *(& delete the `README.md` if it annoys you that much.)*
+# How To Use EntDb:
+Simply click at the `.html` file.
+###### At the moment there isn't any **JavaScript** or anything other than the document langages *(HTML & CSS)* present, so you'll have to do it manualy *(sorry)*.
+# How Do I Volentier?
+DM me on **Discord** at `dion06`.
+# Will ___ Category Be Added In The Future?
+- Music (Albums)
+Definitely, but not yet.
+- Music (Standalones)
+There's a 50% chance, but I'd need to first make some rules as to what whould be allowed since songs are one of the 2 easiest media to make.
+- Paintings
+Probably not, like songs they are one of the 2 easiest media to make & technically all you have to do is just look at it for a second or 2 to be done with it.
+- Porn
+It's already allowed, just not a priority for obvious reasons & not laboled because it would hault productivity.
+- Episodes
+I genuinely don't know, having you be able to review the episodes separately from the whole season would be great, but I'd be very difficult to aproach it.
+- Software (Photoshop, VS Code, etc.)
+Probably not, they're tools more than anything.
+- Trailers
+If a trailer is structured more like a short film with a unique plot, then it **might** be added in as that.
+- Advertisements
+It would be very complicated to make guidelines on which ones to allow, so the chance of that is tiny.

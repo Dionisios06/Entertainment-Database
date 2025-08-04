@@ -1,0 +1,19 @@
+body{
+    font-size: 15px;
+    font-family: 'Noto Serif', serif;
+    margin: 0px;
+}
+table{text-align: center;}
+[data-cell="name"]{text-align: start;}
+[colspan="9"]{background-color: rgb(255, 127, 80);}
+.title{background-color: aquamarine;}
+/*tr:nth-of-type(2n){background-color: ;}*/
+/*Status*/
+    tr{background-color: rgb(211, 208, 178);}
+    .P{background-color: rgb(221, 212, 106)}
+    .CP{background-color: rgb(105, 255, 30)}
+    .D{background-color: rgb(229, 94, 94)}
+    .C{background-color: rgb(0, 214, 233)}
+    .K{background-color: rgb(144, 149, 223)}
+header{margin: 10px;}
+footer{margin: 10px;}
